@@ -71,10 +71,77 @@ li a:hover {
 
 .sektsioonid{
     margin-top: 3em;
+    float: left;
+    width: 50%;
+    padding: 5em 1em 5em 5em;
+    text-align: center;
     .rahvas{
-
+        margin-bottom: 16em;
         .rahvas_tekst{
-            color: white;
+            font-size: 1.5em;
         }
+
+    }
+    .history_culture_tekst{
+        font-size: 1.5em;
     }
 }
+
+h2{
+    font-size: 1.5em;
+}
+
+button{
+    font-size: 1em;
+    text-align: center;
+}
+
+.rahvas_pilt{
+    width: 100%;
+}
+
+.history_pilt{
+    margin-top: 3em;
+    width: 100%;
+}
+
+/*Splash Screen*/
+
+.intro {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    transition: 1s;
+  }
+  
+  .logo-header {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+  }
+  
+  .logo {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+  
+  }
+  
+  .logo.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+  
+  }
+  .logo.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+  }
