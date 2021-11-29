@@ -20,7 +20,7 @@ body {
 }
 
 .Zaun_pilt {
-  background-image: url("/Pildid/zaun-depths.jpg");
+  background-image: url("../Pildid/zaun-depths.jpg");
   height: 970px;
   width: 100%;
   background-size: cover;
