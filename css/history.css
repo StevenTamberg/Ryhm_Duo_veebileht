@@ -20,6 +20,14 @@ h1{
     font-size: 45px;
     color: var(--primary-sisu-varv);
 }
+h2{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
 p{
     font-size: 19px;
 }
