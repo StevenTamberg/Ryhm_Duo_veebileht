@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap");
+:root {
+  --primary-sisu-varv: rgb(190, 190, 50);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  color: var(--primary-sisu-varv);
+}
+
