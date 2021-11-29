@@ -5,7 +5,7 @@
     font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 0;
-    color: white;
+    
    
 }
 
@@ -26,12 +26,21 @@ p {
 }
 
 
-/*Divide page into 2*/
-.column {
+/*Divide page into 3*/
+.column1 {
     float: left;
     width: 50%;
     padding: 5em;
     
+}
+.column2 {
+    float: left;
+    width: 25%;
+    position: center;
+}
+.column3 {
+    float: left;
+    width: 25%;
 }
 
 /*Background*/
@@ -45,7 +54,11 @@ body {
 }
 
 
-/*Header*/
+.charpic {
+    height: 500px;
+    
+}
 
-
-  
+.actionpic {
+    height: 250px;
+}
