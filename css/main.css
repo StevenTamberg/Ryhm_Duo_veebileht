@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Shippori+Antique&display=swap');
 :root {
   --primary-sisu-varv: rgb(190, 190, 50);
 }
@@ -78,3 +79,48 @@ li a:hover {
   color: white;
 }
 /*# sourceMappingURL=main.css.map */
+
+
+
+
+
+/*Splash Screen*/
+
+.intro {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #161616;
+  transition: 1s;
+}
+
+.logo-header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+
+}
+
+.logo.active {
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+
+}
+.logo.fade {
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
