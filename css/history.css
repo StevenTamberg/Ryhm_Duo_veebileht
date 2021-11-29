@@ -7,6 +7,25 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
-  color: var(--primary-sisu-varv);
+  color: white;
 }
 
+.column{
+    float: left;
+    width: 50%;
+    padding: 5em;
+}
+
+h1{
+    font-size: 45px;
+    color: var(--primary-sisu-varv);
+}
+p{
+    font-size: 19px;
+}
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Pildid/1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
