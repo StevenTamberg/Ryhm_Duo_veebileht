@@ -43,32 +43,6 @@ h1 {
     padding-top: .7em;
 }
 
-ul {
-    list-style-type: none;
-    padding: 1em;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    display: inline-block;
-    border: 1px solid #000;
-    background: rgb(31, 31, 31);
-    margin: 0;
-}
-
-li{
-    float: left;
-}
-
-li a {
-    text-align: center;
-    padding: 14px 16px;
-    display: block;
-}
-
-li a:hover {
-    background-color: rgb(19, 19, 26);
-}
-
 .sektsioonid{
     margin-top: 3em;
     float: left;
@@ -94,6 +68,25 @@ h2{
 button{
     font-size: 1em;
     text-align: center;
+    border: 2px solid black;
+    color: black;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: var(--primary-sisu-varv);
+    border-radius: 8px;
+    font-size: 1.5em;
+    margin-top: 2em;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: black;
+    color: var(--primary-sisu-varv);
+    border-color: var(--primary-sisu-varv);
+    cursor: pointer;
 }
 
 .rahvas_pilt{

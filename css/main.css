@@ -71,6 +71,25 @@ h2 {
 button {
   font-size: 1em;
   text-align: center;
+  border: 2px solid black;
+  color: black;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: var(--primary-sisu-varv);
+  border-radius: 8px;
+  font-size: 1.5em;
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: black;
+  color: var(--primary-sisu-varv);
+  border-color: var(--primary-sisu-varv);
+  cursor: pointer;
 }
 
 .rahvas_pilt {
