@@ -3,7 +3,10 @@
 * {
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
-    ;
+    margin: 0;
+    padding: 0;
+    
+   
 }
 
 h1 {
@@ -35,45 +38,14 @@ p {
 
 body {
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Pildid/1.jpg');
-     
-}
-
-/*Navbar*/
-a {
-    font-family: 'Shippori Antique', sans-serif;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 1em;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: inline-block;
-    border: 1px solid #000;
-    background: rgb(31, 31, 31);
-
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: rgb(190, 190, 50);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #113;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+      
 }
 
 
+/*Header*/
 
 
-
+  

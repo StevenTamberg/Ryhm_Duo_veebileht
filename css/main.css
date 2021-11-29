@@ -44,32 +44,6 @@ h1 {
   padding-top: .7em;
 }
 
-ul {
-  list-style-type: none;
-  padding: 1em;
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  display: inline-block;
-  border: 1px solid #000;
-  background: #1f1f1f;
-  margin: 0;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  text-align: center;
-  padding: 14px 16px;
-  display: block;
-}
-
-li a:hover {
-  background-color: #13131a;
-}
-
 .sektsioonid {
   margin-top: 3em;
   float: left;
@@ -97,9 +71,6 @@ h2 {
 button {
   font-size: 1em;
   text-align: center;
-  background-color: var(--primary-sisu-varv);
-  color: black;
-  border: none;
 }
 
 .rahvas_pilt {
